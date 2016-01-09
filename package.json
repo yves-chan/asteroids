@@ -1,0 +1,30 @@
+{
+  "name": "Demo game",
+  "version": "1.0.0",
+  "description": "\"demo game\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"vows --spec --isolate\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yves-chan/asteroids.git"
+  },
+  "keywords": [
+    "game",
+    "web"
+  ],
+  "dependencies": {
+    "npm": "^2.1.0",
+    "cors": "latest",
+    "jsonfile": "latest",
+    "express": "latest"
+  },
+  "author": "Yves Chan",
+  "license": "ISC",
+  "homepage": "https://github.com/yves-chan/asteroids/#readme",
+  "devDependencies": {
+    "requirejs": "^2.1.18"
+  }
+}
