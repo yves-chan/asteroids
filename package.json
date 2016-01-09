@@ -1,5 +1,5 @@
 {
-  "name": "Demo game",
+  "name": "asteroids",
   "version": "1.0.0",
   "description": "\"demo game\"",
   "main": "server.js",
@@ -19,12 +19,20 @@
     "npm": "^2.1.0",
     "cors": "latest",
     "jsonfile": "latest",
-    "express": "latest"
+    "express": "latest",
+    "request": "latest",
+    "assetmanager": "latest",
+    "errorhandler": "latest",
+    "app-root-path": "latest",
+    "body-parser": "latest",
+    "async": "latest"
   },
   "author": "Yves Chan",
   "license": "ISC",
   "homepage": "https://github.com/yves-chan/asteroids/#readme",
   "devDependencies": {
+    "browserify": "^10.2.4",
+    "jsftp": "^1.5.2",
     "requirejs": "^2.1.18"
   }
 }
