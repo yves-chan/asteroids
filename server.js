@@ -1,11 +1,10 @@
 /**
- * Created by vincentchan on 15-06-08.
+ * Created by yves chan
  */
 var express = require("express");
 var app = express();
 var cors = require("cors");
 var bodyParser = require("body-parser");
-
 var appRoot = require("app-root-path");
 
 //deployment to heroku
